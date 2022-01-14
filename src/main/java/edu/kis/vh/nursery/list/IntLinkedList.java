@@ -1,9 +1,9 @@
 package edu.kis.vh.nursery.list;
 
 public class IntLinkedList {
+
 	public static final int ERR_RETURN = -1;
 	Node last;
-	int i;
 
 	public void push(int i) {
 		if (last == null)
