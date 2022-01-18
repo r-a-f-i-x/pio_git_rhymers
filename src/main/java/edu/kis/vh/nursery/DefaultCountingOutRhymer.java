@@ -8,6 +8,10 @@ public class DefaultCountingOutRhymer {
     private static final int ERR_RET = -1;
     private final int[] numbers = new int[ARR_SIZE];
 
+    public int getTotal() {
+        return total;
+    }
+
     private int total = START_VAL;
 
     public void countIn(int in) {
