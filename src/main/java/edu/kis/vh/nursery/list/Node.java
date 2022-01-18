@@ -9,7 +9,7 @@ public class Node {
 	public Node(int i) {
 		value = i;
 	}
-
+//brak wprowadzanych zmian ponieważ inne settry są używane w programie
 	public int getValue() {
 		return value;
 	}
